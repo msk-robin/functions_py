@@ -12,3 +12,12 @@ def vowel_counter(password):
          count+=1
     return  count
 print(vowel_counter("robinTheRocks"))
+
+
+def add_up_to(number):
+    total = 0
+    for i in range(1,number):
+        total += number
+    return total
+
+print(add_up_to(5)) 
